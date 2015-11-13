@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Buy";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Buy</h2>
+
+<datalist>
+    <img />
+    <label>Product 1</label>
+    <button>Add to Cart</button>
+</datalist>
+
+<table style="width:100%; color:brown; background-color:lightblue">
+    <tr><td>&nbsp;Select Category:</td></tr>
+    <td>&nbsp;Sort By: 
+    <select><option> Price Lowest to Highest</option>
+        <option> highest to lowest</option>
+        <option> ... </option>
+
+        </select> </td>
+
+    <tr />
+    <tr>
+    <td>&nbsp;Product 1</td>
+    <td>&nbsp; <img /> Image</td>
+        <td><input id="addMe" type="button" value="Add Me"></></td>
+    <tr />
+
+    <tr>
+        <td>&nbsp;Product 2</td>
+        <td>&nbsp; <img /> Image</td>
+        <td><input id="addMe" type="button" value="Add Me"></button></td>
+
+    <tr />
+    <tr>
+        <td>&nbsp;Product 3</td>
+        <td>&nbsp; <img /> Image</td>
+        <td><input id="addMe" type="button" value="Add Me"></button></td>
+
+    <tr />
+
+    <tr>
+        <td>&nbsp;Product n</td>
+        <td>&nbsp; <img /> Image</td>
+        <td><button value="Add Me"></button></td>
+
+    <tr />
+
+    <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+
+<input id="btnCheckout" type="button" value="Checkout" />
+<input id="btnSaveLater" type="button" value="Save for Later" />
+

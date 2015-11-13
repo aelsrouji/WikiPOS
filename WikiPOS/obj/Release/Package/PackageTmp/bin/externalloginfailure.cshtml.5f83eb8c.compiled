@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Views/Account/ExternalLoginFailure.cshtml" hash="ffffffffb4e96f50" filehash="ffffbe9dfdeda24d" flags="110000" assembly="App_Web_yc2bvroq" type="ASP._Page_Views_Account_ExternalLoginFailure_cshtml">
+    <filedeps>
+        <filedep name="/Views/Account/ExternalLoginFailure.cshtml" />
+    </filedeps>
+</preserve>
